@@ -1,9 +1,9 @@
 import IdCard from './components/id-card/IdCard';
 import Greetings from './components/greetings/Greetings';
 import Random from './components/random/Random';
+import BoxColor from './components/box/BoxColor';
 
 import './App.css';
-
 
 function App() {
   return (
@@ -35,6 +35,10 @@ function App() {
       <h3 className="my-4">Iteration 3</h3>
       <Random min={1} max={6} className="mb-1"/>
       <Random min={1} max={100} className="mb-1"/>
+
+      <h3 className="my-4">Iteration 4</h3>
+      <BoxColor r={255} g={0} b={0} className="mb-1"/>
+      <BoxColor r={128} g={255} b={0} className="mb-1"/>
     </div>
   );
 }
