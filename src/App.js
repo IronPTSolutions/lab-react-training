@@ -1,6 +1,7 @@
 import IdCard from './components/id-card/IdCard';
 
 import './App.css';
+import Greetings from './components/greetings/Greetings';
 
 function App() {
   return (
@@ -24,6 +25,10 @@ function App() {
         picture="https://randomuser.me/api/portraits/women/44.jpg"
         className="mb-2"
       />
+
+      <h3 className="my-4">Iteration 2</h3>
+      <Greetings lang="de" className="mb-1">Ludwig</Greetings>
+      <Greetings lang="fr" className="mb-1">François</Greetings>
     </div>
   );
 }
