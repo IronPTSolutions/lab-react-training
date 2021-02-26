@@ -1,4 +1,6 @@
 
+import Panel from '../panel/Panel';
+
 function Greetings({ lang, className, children }) {
   let greet;
   switch (lang) {
@@ -19,9 +21,7 @@ function Greetings({ lang, className, children }) {
   }
 
   return (
-    <div className={`border border-2 border-dark p-2 ${className}`}>
-      <h5 className="m-0">{greet} {children}</h5>
-    </div>
+    <Panel className={className}>{greet} {children}</Panel>
   )
 }
 

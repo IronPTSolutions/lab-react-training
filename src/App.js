@@ -1,7 +1,9 @@
 import IdCard from './components/id-card/IdCard';
+import Greetings from './components/greetings/Greetings';
+import Random from './components/random/Random';
 
 import './App.css';
-import Greetings from './components/greetings/Greetings';
+
 
 function App() {
   return (
@@ -29,6 +31,10 @@ function App() {
       <h3 className="my-4">Iteration 2</h3>
       <Greetings lang="de" className="mb-1">Ludwig</Greetings>
       <Greetings lang="fr" className="mb-1">François</Greetings>
+
+      <h3 className="my-4">Iteration 3</h3>
+      <Random min={1} max={6} className="mb-1"/>
+      <Random min={1} max={100} className="mb-1"/>
     </div>
   );
 }
