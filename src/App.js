@@ -5,6 +5,7 @@ import BoxColor from './components/box/BoxColor';
 
 import './App.css';
 import CreditCard from './components/credit-card/CreditCard';
+import Rating from './components/rating/Rating';
 
 function App() {
   return (
@@ -80,6 +81,13 @@ function App() {
         </div>
       </div>
       
+      <h3 className="my-4">Iteration 6</h3>
+      <Rating>0</Rating>
+      <Rating>1.49</Rating>
+      <Rating>1.5</Rating>
+      <Rating>3</Rating>
+      <Rating>4</Rating>
+      <Rating>5</Rating>
     </div>
   );
 }
