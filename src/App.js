@@ -39,6 +39,8 @@ function App() {
       <h3 className="my-4">Iteration 4</h3>
       <BoxColor r={255} g={0} b={0} className="mb-1"/>
       <BoxColor r={128} g={255} b={0} className="mb-1"/>
+      <BoxColor r={0} g={0} b={0} className="mb-1"/>
+      <BoxColor r={255} g={255} b={255} className="mb-1"/>
     </div>
   );
 }
